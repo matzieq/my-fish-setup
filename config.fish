@@ -11,7 +11,7 @@ if status is-interactive
     alias twsum="timew summary :ids"
     alias twint="timew start internal"
     alias vim="nvim"
-    alias startpsg="tmux && tmux send-keys 'cd ~/dev/work/chooose/landing-page-generator Enter nvim . Enter C-b C-w'"
+    alias startpsg=~/.config/fish/startpsg.sh
     eval "$(pyenv init -)"
 end
 
